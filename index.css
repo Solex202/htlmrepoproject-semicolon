@@ -1,0 +1,161 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 93vw;
+    height: 80vh;
+    padding: 3%;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(50, 150, 1,.5);
+    width: 100%;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.header-content{
+    color: white;
+}
+
+.header-content h1{
+    margin: 0;
+    line-height: 1.3em;
+}
+
+.header-content p{
+    margin-top: 10px;
+    line-height: 1.5em;
+    font-size: 14px;
+}
+
+.information{
+    margin-top: 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    -webkit-box-shadow: 5px 5px 15px 5px #d4d4d4; 
+    box-shadow: 5px 5px 15px 5px #d4d4d4;
+    height: 200px;
+    width: 40%;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.card button{
+    background-color: black;
+    padding:  10px 20px;
+    color: white;
+    border: unset;
+    border-radius: 18px;
+    text-align: left;
+    width: 50%;
+}
+
+.sliding {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.sliding img {
+    height: 400px;
+    border-radius: 12px ;
+    position: relative;
+}
+
+@keyframes slide1 {
+    0%{
+        left: 0%;
+        opacity: 0;
+    }
+    50%{
+        left: 30%;
+        opacity: 1;
+    }
+    100%{
+        left: 61%;
+        opacity: 0;
+    }
+}
+
+@keyframes slide2{
+    0%{
+        right: 61%;
+        opacity: 0;
+    }
+    50%{
+        left: 0%;
+        opacity: 0;
+    }
+    100%{
+        left: 30%;
+        opacity: 1;
+    }
+}
+
+@keyframes slide3{
+    0%{
+        left: 30%;
+        opacity: 1;
+    }
+    50%{
+        left: 61%;
+        opacity: 1
+        ;
+    }
+    100%{
+        left: 0%;
+        opacity: 0;
+    }
+}
+
+.sliding_image1 {
+    animation: slide1 5s infinite;
+}
+
+.sliding_image2 {
+    animation: slide2 5s infinite;
+}
+
+.sliding_image3{
+    animation: slide3 5s infinite;
+}
+
+.social_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 25em;
+}
+
+.social_icons{
+    display: flex;
+}
+
+.social_icons svg{
+    margin-right: 3rem;
+}
+
+.social_container{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
