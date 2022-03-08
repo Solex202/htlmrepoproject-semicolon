@@ -1,0 +1,534 @@
+*{  font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+}
+
+.header{
+    width: 1348px;
+    height: 77px;
+    padding: 30px 20px 0px;
+}
+
+.hd-header{
+    width: 1092px;
+    height: 47px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flutter-logo-name{
+    display: flex;
+    margin-left: 12.5%;
+}
+
+.middle-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.commerce{
+    margin-left: 7%;
+}
+
+.issuing{
+    margin-left: 7%;
+}
+
+.issuing:hover{
+    color: aquamarine;
+}
+
+.capital{
+    margin-left: 7%;
+}
+
+.capital:hover{
+    color: aquamarine;
+}
+
+.grow{
+    margin-left: 7%;
+}
+.grow:hover{
+    color: aquamarine;
+}
+
+.faas{
+    margin-left: 7%;
+}
+
+.faas:hover{
+    color: aquamarine;
+}
+
+.button{
+    margin-left: 19%;
+}
+
+.button button{
+    border-radius: 8px;
+    width: 142px;
+    height: 47px;
+    border-color: azure;
+    cursor: progress;
+}
+
+.button button:hover{
+    background-color: black;
+    color: white;
+    transition: background-color 0.05s ease-in;
+}
+
+.hero-section{
+    width: 1348px;
+    height: 600px;
+    padding: 90px 20px;
+}
+
+.hero-wrapper{
+    width: 1091.99px;
+    height: 518.95px;
+    margin: 0px 46.733px;
+}
+
+.hero-info{
+    width: 750px;
+    height: 518.95px;
+    font-size: 16px;
+    margin-left: 8%;
+}
+
+.hero-heading h4 {
+    color: black;
+    width: 750px;
+    height: 323.99;
+    margin: 0px 0px 30px;
+    font-family: 100px 'Sira Sans' , sans-serif;
+    font-size:100px;
+}
+
+.hero-heading h4 span{
+    color: orange;
+}
+
+.hero-ctas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.primary-button button{
+    width: 200.68px;
+    height: 60.98px;
+    padding: 21px 24px;
+    background-color: black;
+    border-radius: 11px;
+    color: white;
+}
+
+.tertiary-button{
+    margin-right: 47%;
+}
+
+.tertiary-button button{
+    width: 140.42px;
+    height: 60.98px;
+    padding: 21px 24px;
+    background-color: whitesmoke;
+    border-radius: 11px;
+    color: black;
+}
+.section-two{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.customer-image{
+    margin-left: 1.5%;
+}
+
+.customer-grid-image{
+    margin-right: 1.5%;
+}
+
+.back-image{
+    display: flex;
+    justify-content: left;
+    margin-top: -15%;
+}
+
+.float-text{
+    margin-top: 38%;
+    margin-left: 45%;
+    position: absolute;
+    color: white;
+}
+
+.float-text h3{
+    letter-spacing: 4px;
+}
+
+.grid-image{
+    margin-top: -50%;
+}
+
+.float-grid-text{
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 41%;
+    color: white;
+}
+
+.float-grid-text h3{
+    letter-spacing: 4px;
+}
+
+.grid-text p{
+    font-weight: 100;
+    font-size: medium;
+    line-height: 28px;
+}
+
+.businesses{
+    margin-left: 13%;
+    margin-right: 16%;
+    margin-top: 7%;
+}
+
+.business-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-payment{
+    margin-left: 13%;
+    margin-top: 8%;
+}
+
+.features-grid{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+
+.payment-container h1{
+    font-family: 100px 'Sira Sans' , sans-serif;
+    font-size:80px;
+    margin-bottom: 4%;
+}
+
+.payment-container h1 span{
+    color: orange
+}
+
+.feature p{
+    line-height: 23px;
+}
+
+.feature button{
+    width: 95px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.feature{
+    margin-top: 19%;
+}
+
+.feature-grid-section{
+    margin-right: 19%;
+    margin-top: 15%;
+}
+
+.section1{
+    line-height: 27px;
+}
+
+
+.section1 h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section1 h5:hover{
+    /* transform: translateY(-20px); */
+}
+
+.section1 h5 span{
+    color: orange;
+}
+
+.section1 h5 svg{
+    color: orange;
+    margin-right:60%;
+    width: 14px;
+    height: 19px;
+}
+
+.section1 svg:hover{
+    transform: translateX(10px);
+}
+
+.section2{
+    margin-top: 50%;
+    line-height: 27px;
+}
+
+.section2 h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.section2 h5 span{
+    color: orange;
+}
+
+.section2 h5 svg{
+    color: orange;
+    margin-right:60%;
+    width: 14px;
+    height: 19px;
+}
+
+.section2 svg:hover{
+    transform: translateX(10px);
+}
+
+.section-light{
+    width: 1451.45px;
+    height: 2801.39px;
+    padding: 160px 20px;
+    background-color: #F8FAFD;
+}
+
+.light-container{
+    width: 1091.99px;
+    height: 2481.39px;
+    margin: 0px 46.733px;
+}
+
+.light-container h1{
+    width: 1086.99px;
+    height: 158px;
+    margin: 0px 0px 98px;
+    margin-left: 11%;
+    font-family: 100px 'Sira Sans' , sans-serif;
+    font-size:70px;
+    margin-top: 35%;
+    /* margin-top: 15%; */
+    /* margin-top: -80%; */
+}
+
+.light-container h1 span{
+    color: green;
+}
+
+.light-grid{
+    display: flex;
+    margin-left: 6%;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+}
+
+.light-grid2 h4{
+    /* margin-bottom: 120%; */
+}
+
+.light-features p{
+    margin-left: 12%;
+    /* line-height: 23px; */
+}
+
+.light-features button{
+    border-radius: 9px;
+    width: 99px;
+    height: 43px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.light-image{
+    margin-left: 39%;
+}
+
+.light-image2 img{
+    /* margin-right: 931px; */
+    /* position: absolute; */
+    /* top: -40px; */
+    /* margin-top: -60%; */
+}
+
+.light-image2 p{
+    /* margin-top: 90%; */
+}
+
+.light-grid2{
+    display: flex;
+    margin-left: 10%;
+    position: relative;
+}
+
+.light-container h1{
+    margin-top: 35%;
+}
+
+.light-features2{
+    margin-left: 19%;
+    margin-top: 4%;
+}
+
+.feature2-text1 h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.feature2-text1 h5 span{
+    color: orange;
+}
+
+.feature2-text1 h5 svg{
+    color: orange;
+    margin-right:60%;
+    width: 14px;
+    height: 19px;
+}
+
+.feature2-text1 svg:hover{
+    transform: translateX(10px);
+}
+
+.feature2-text2 h5{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.feature2-text2 h5 span{
+    color: orange;
+}
+
+.feature2-text2 h5 svg{
+    color: orange;
+    margin-right:60%;
+    width: 14px;
+    height: 19px;
+}
+
+.feature2-text2 svg:hover{
+    transform: translateX(10px);
+}
+.light-container h2{
+    margin-top: 19%;
+    margin-left: 9%;
+    font-family: 100px 'Sira Sans' , sans-serif;
+    font-size:70px;
+}
+
+.light-container h2 span{
+    color: green;
+}
+
+.light-image2 p span{
+    color: orange;
+}
+
+.light-container button{
+    margin-left: 9%;
+    width: 134px;
+    height: 64px;
+    border-radius: 9px;
+    background-color: black;
+    color: white;
+}
+
+/* dark section */
+
+.dark-section{
+    width: 1455.45px;
+    height: 1662.93px;
+    background-color: black;
+    padding: 160px 20px;
+}
+
+.dark-container{
+    width: 1185px;
+    height: 1342px;
+    columns: white;
+}
+
+.dark-container h1{
+    width: 830.99px;
+    height: 171.99px;
+    /* margin: 0px 0px 49px; */
+    margin-left: 25%;
+    font-family: 100px 'Sira Sans' , sans-serif;
+    font-size:80px;
+    color: white;
+    text-align: center;
+}
+
+.dark-container h1 span{
+    color: purple;
+}
+
+.dark-container p{
+    margin-left: 42%;
+    font-weight: bolder;
+    color: white;
+    line-height: 29px;
+}
+
+.dark-container button{
+    margin-left: 53%;
+    margin-top: 3%;
+    width: 174px;
+    height: 59px;
+    border-radius: 11px;
+    background-color: white;
+}
+
+
+
+
+/* .layer-image img{
+    display: flex;
+    justify-content: left;
+    border-radius: 46%;
+    width: 250px;
+    height: 300px;
+    position: relative;
+} */
+
+/* .float-image-box{
+    display: flex;
+
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 17%;
+    width: 14.5%;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 7px;
+    color: white;
+    
+} */
