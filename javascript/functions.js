@@ -99,17 +99,17 @@
 
 // animation(movement)
 
-function createCharacter(){
-    let character = {
-        name : "adeola",
-        isWig: true,
-        gender: "female",
-        getName: function() {
-            return this.name
-        }
-    }
-    return character
-}
+// function createCharacter(){
+//     let character = {
+//         name : "adeola",
+//         isWig: true,
+//         gender: "female",
+//         getName: function() {
+//             return this.name
+//         }
+//     }
+//     return character
+// }
 
 // let person = createCharacter()
 
@@ -117,10 +117,10 @@ function createCharacter(){
 
 // console.log(personName);
 
-let person = createCharacter()
-let getPersonName = person.getName
-let humanName = getPersonName()
-console.log(humanName);
+// let person = createCharacter()
+// let getPersonName = person.getName
+// let humanName = getPersonName()
+// console.log(humanName);
 
 
 
@@ -136,3 +136,97 @@ console.log(humanName);
 
 // console.log(Object.keys(personal));
 
+// function callMe(phoneNumber, countryDail){
+//     if(phoneNumber !== ""){
+//         countryDail(phoneNumber)
+//     }else{
+//         console.log("enter a valid phone number");
+//     }
+// }
+// const dail = (phoneNumber) => console.log(`calling ${phoneNumber}`);
+// callMe("09034653698",dail)
+
+// let anArray = [1,2,3,4,5,6,7,8] ;function getEvennumber(anArray){for(let i = 0; i < anArray.length; i++){ if(anArray[i] % 2 === 0){process.stdout.write(anArray[i] + " ");}}}getEvennumber(anArray);
+
+// (function oneLine(anArray) {for (let i = 0; i < anArray.length;i++) {anArray[i] % 2 === 0 && process.stdout.write(anArray[i] + " ")}})([1,2,3,4,5,6,7,8])
+
+// [1,2,3,4,5,6,7,8].forEach(element => { element % 2 === 0 ? console.log(element) : " ";});
+
+// let psuedo = {
+//     anArray : [1,2,3,4,5,6,7],
+//     pseudoForEach : function(iterator){
+//         for (let i = 0; i < this.anArray.length; i++){
+//             iterator(this.anArray[i]);
+//         }
+//     }
+// };
+
+// psuedo.pseudoForEach(value => value % 2 === 0 && process.stdout.write(value + " "));
+
+// function factorial(x){
+//     if (x === 0){
+//         return 1;
+//     }else{
+//         return x * factorial(x-1);
+//     }
+// }
+
+// first iteration
+// 3 * factorial (3-1)
+// second iteration
+// 3 * 2 * factorial(2-1)
+// third iteration
+// 3 *2*1 factorial(1-1)
+
+// const num = 1;
+
+// if(num > 0){
+
+// let result = factorial(num);
+// console.log(`The factorial of ${num} is ${result}`);
+
+// }
+
+
+    let cohort = {
+        name : "tech_stuff",
+        number : 9,
+        total : 31,
+        isNormal : true,
+    }
+
+    let newCohort = cohort;
+    newCohort.name = "interesting_stuff"
+
+    console.log(newCohort.name);
+    console.log(cohort.name);
+
+    let cohortNew = {...cohort} //spread
+
+    cohortNew .name = "cool_stuff"
+    console.log(newCohort.name);
+    console.log(cohort.name);
+    console.log(cohortNew.name);
+
+
+    // function doSomething(...params){ //rest
+    //     console.log(params);
+    // }
+
+    // doSomething("ujay","ehi","increase","ajine")
+
+
+function doSomething(...stuff){
+    return function(){
+        stuff.forEach((stuff) => console.log(`hi ${stuff}`))
+    }
+}
+
+doSomething("ujay","ehi","increase","ajine")()
+
+let anArray = [1,2,3,4,5,6]
+let newArray = [...anArray]
+console.log(newArray);
+
+let anotherArray = newArray.keys()
+console.log((keys) => console.log(key));
