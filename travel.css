@@ -98,6 +98,7 @@ background-color: white;
     background-color: white;
     display: flex;
     justify-content: space-between;
+    /* margin-bottom: 4%; */
 }
 
 .special-feature-container .special-feature-title{
@@ -140,6 +141,7 @@ background-color: white;
     justify-content: space-between;
     padding: 2%;
     align-items: center;
+    /* margin-top: 11%; */
 } 
 
 .search-cover{
@@ -183,6 +185,7 @@ background-color: white;
     border-radius: 10px;
     border: 1px solid rgb(243, 243, 243);
     height: 50%;
+    margin-top: 4%;
 }
 
 .option-container{
@@ -262,6 +265,7 @@ background-color: white;
     border-radius: 10px;
     border: 1px solid rgb(243, 243, 243);
     height: 50%;
+    margin-top: 4%;
 }
 
 .option-container2 .option-container{
@@ -660,6 +664,28 @@ background-color: white;
 
 .last-div{
     margin-left: 43%;
+}
+.search-line{
+    position: absolute;
+    top: 60px;
+    margin-left: 190px;
+}
+
+.search-line button{
+    width: 60vw;
+    height: 3rem;
+    outline: none;
+    border: 1.5px solid blueviolet;
+    background-color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-line button:hover{
+    background-color: blueviolet;
+    border: 1.5px solid white;
+    color: white;
+    transition: background-color 2s ease-in;
 }
 
 

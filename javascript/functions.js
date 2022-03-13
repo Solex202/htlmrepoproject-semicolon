@@ -188,25 +188,25 @@
 // }
 
 
-    let cohort = {
-        name : "tech_stuff",
-        number : 9,
-        total : 31,
-        isNormal : true,
-    }
+    // let cohort = {
+    //     name : "tech_stuff",
+    //     number : 9,
+    //     total : 31,
+    //     isNormal : true,
+    // }
 
-    let newCohort = cohort;
-    newCohort.name = "interesting_stuff"
+    // let newCohort = cohort;
+    // newCohort.name = "interesting_stuff"
 
-    console.log(newCohort.name);
-    console.log(cohort.name);
+    // console.log(newCohort.name);
+    // console.log(cohort.name);
 
-    let cohortNew = {...cohort} //spread
+    // let cohortNew = {...cohort} //spread
 
-    cohortNew .name = "cool_stuff"
-    console.log(newCohort.name);
-    console.log(cohort.name);
-    console.log(cohortNew.name);
+    // cohortNew .name = "cool_stuff"
+    // console.log(newCohort.name);
+    // console.log(cohort.name);
+    // console.log(cohortNew.name);
 
 
     // function doSomething(...params){ //rest
@@ -216,17 +216,27 @@
     // doSomething("ujay","ehi","increase","ajine")
 
 
-function doSomething(...stuff){
-    return function(){
-        stuff.forEach((stuff) => console.log(`hi ${stuff}`))
+// function doSomething(...stuff){
+//     return function(){
+//         stuff.forEach((stuff) => console.log(`hi ${stuff}`))
+//     }
+// }
+
+// doSomething("ujay","ehi","increase","ajine")()
+
+// let anArray = [1,2,3,4,5,6]
+// let newArray = [...anArray]
+// console.log(newArray);
+
+// let anotherArray = newArray.keys()
+// console.log((keys) => console.log(key));
+
+
+let number = 7;
+
+for(let i = 1; i <= number; i++){
+    for(let j = 1; j <= i; j++){
+       process.stdout.write("#");
     }
+    console.log();
 }
-
-doSomething("ujay","ehi","increase","ajine")()
-
-let anArray = [1,2,3,4,5,6]
-let newArray = [...anArray]
-console.log(newArray);
-
-let anotherArray = newArray.keys()
-console.log((keys) => console.log(key));
