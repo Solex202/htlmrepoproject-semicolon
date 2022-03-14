@@ -240,3 +240,14 @@ for(let i = 1; i <= number; i++){
     }
     console.log();
 }
+
+let pseudoDocument = {
+    events : {},
+    addEventListener : function(event,aFunction){
+        if(event === 'DOMContentLoaded'){
+            aFunction(this.events)
+        }
+    }
+}
+
+pseudoDocument.addEventListener('DOMContentLoaded', function(event) {console.log(event);})
