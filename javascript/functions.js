@@ -232,22 +232,33 @@
 // console.log((keys) => console.log(key));
 
 
-let number = 7;
+// let number = 7;
 
-for(let i = 1; i <= number; i++){
-    for(let j = 1; j <= i; j++){
-    process.stdout.write("#");
-    }
-    console.log();
-}
+// for(let i = 1; i <= number; i++){
+//     for(let j = 1; j <= i; j++){
+//     process.stdout.write("#");
+//     }
+//     console.log();
+// }
 
-let pseudoDocument = {
-    events : {},
-    addEventListener : function(event,aFunction){
-        if(event === 'DOMContentLoaded'){
-            aFunction(this.events)
-        }
-    }
-}
+// let pseudoDocument = {
+//     events : {},
+//     addEventListener : function(event,aFunction){
+//         if(event === 'DOMContentLoaded'){
+//             aFunction(this.events)
+//         }
+//     }
+// }
 
-pseudoDocument.addEventListener('DOMContentLoaded', function(event) {console.log(event);})
+// pseudoDocument.addEventListener('DOMContentLoaded', function(event) {console.log(event);})
+
+let sequence = [1,2,3];
+sequence.push(4);
+sequence.push(5);
+console.log(sequence);
+
+sequence.pop();
+sequence.pop();
+sequence.pop();
+console.log(sequence);
+
